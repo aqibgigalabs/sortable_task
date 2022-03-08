@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <title>Sort</title>
+</head>
+<body>
+  <div class="continer">
+    <div class="custom-row">
+      <div class="left-col custom-col">
+        <h1>Fregenkatalog:</h1>
+        <div class="left-side-card-container">
+        </div>
+      </div>
+      <div class="right-col custom-col">
+        <div class="right-side-card-container"  ondragover="handleDragOver(event);" ondrop="handleDrop(event);">
+        </div>
+        <button onclick="saveData(event);">Save Data</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/main.js">
+</script>
+</body>
+</html>
